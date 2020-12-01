@@ -1,0 +1,13 @@
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.Width = 300
+GraphicsWindow.Height = 200
+
+GraphicsWindow.Title = "Funny Lines"
+
+GraphicsWindow.PenColor = "Blue"
+
+For i = 1 To 10 Step 2
+  GraphicsWindow.PenWidth = i
+  GraphicsWindow.DrawLine(20, i*15, 180, i*15)
+EndFor
+

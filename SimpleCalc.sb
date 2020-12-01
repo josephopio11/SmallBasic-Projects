@@ -1,0 +1,33 @@
+' Ask the user to enter his name
+
+TextWindow.Write("Please enter your name: ")
+username = TextWindow.Read()
+
+' Ask the user to enter first number for the calculation
+
+TextWindow.Write("Please enter your first number: ")
+number1 = TextWindow.Read()
+
+' Ask the user to enter the second number for the calculation
+
+TextWindow.Write("Please enter your second number: ")
+number2 = TextWindow.Read()
+
+sum = number1 + number2
+product = number1 * number2
+difference = number1 - number2
+quotient = number1/number2
+
+'Create a space after the first set of lines of text
+TextWindow.WriteLine("")
+
+' Print out the values
+TextWindow.WriteLine("Hello " + username)
+TextWindow.WriteLine("You entered the numbers " + number1 + " and " +number2)
+TextWindow.WriteLine("The sum of those 2 numbers is: " + sum)
+TextWindow.WriteLine("The product of those 2 numbers is: " + product)
+TextWindow.WriteLine("The difference of those 2 numbers is: " + difference)
+TextWindow.WriteLine("The quotient of those 2 numbers is: " + quotient)
+
+' Create a black line before "Press any key to continue..."
+TextWindow.WriteLine("")

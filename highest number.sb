@@ -1,0 +1,18 @@
+TextWindow.Write("Enter your first number: ")
+num1 = TextWindow.ReadNumber()
+
+TextWindow.Write("Enter yoru second number: ")
+num2 = TextWindow.ReadNumber()
+
+FindMax()
+
+TextWindow.WriteLine("The highest number is: " + max)
+
+Sub FindMax
+  If (num1 > num2) Then
+    max = num1
+  Else
+    max = num2
+  EndIf
+EndSub
+  

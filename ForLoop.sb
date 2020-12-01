@@ -1,0 +1,4 @@
+For i = 50 To 0 Step -2
+  TextWindow.Write(i + ", ")
+EndFor
+  

@@ -1,0 +1,16 @@
+GraphicsWindow.Width = 400
+GraphicsWindow.Height = 600
+
+GraphicsWindow.Title = "Myra"
+
+GraphicsWindow.PenColor = "Red"
+GraphicsWindow.DrawRectangle (20, 20, 300,60)
+
+GraphicsWindow.BrushColor = "Purple"
+GraphicsWindow.FillRectangle (20, 100, 300, 60)
+
+GraphicsWindow.PenColor = "Blue"
+GraphicsWindow.DrawEllipse(20, 180, 150, 150)
+
+GraphicsWindow.BrushColor = "Maroon"
+GraphicsWindow.FillEllipse(20, 360, 200, 200)

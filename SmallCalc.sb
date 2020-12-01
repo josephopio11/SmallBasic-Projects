@@ -1,0 +1,22 @@
+TextWindow.Write("Enter your first number: ")
+number1 = TextWindow.Read()
+
+TextWindow.Write("Enter your second number: ")
+number2 = TextWindow.Read()
+
+sum = number1 + number2
+product = number1 * number2
+difference = number1 - number2
+quotient = number1 / number2
+
+TextWindow.WriteLine("Sum of " + number1 + " and " + number2 + " is " + sum)
+TextWindow.WriteLine("Product of " + number1 + " and " + number2 + " is " + product)
+TextWindow.WriteLine("Difference between " + number1 + " and " + number2 + " is " + difference)
+TextWindow.WriteLine("Quotient of " + number1 + " and " + number2 + " is " + quotient)
+
+If(Clock.Hour < 12) Then
+  TextWindow.WriteLine("Good morning.")
+Else
+  TextWindow.WriteLine("Good evening.")
+EndIf
+  

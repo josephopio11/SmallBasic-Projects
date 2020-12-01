@@ -1,0 +1,11 @@
+TextWindow.Write("Please enter a number of your choice: ")
+num = TextWindow.ReadNumber()
+
+remainder = Math.Remainder(num, 2)
+
+If (remainder = 0) Then
+  TextWindow.WriteLine("This number is EVEN")
+Else
+  TextWindow.WriteLine("This number is ODD")
+EndIf
+  

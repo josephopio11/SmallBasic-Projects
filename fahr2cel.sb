@@ -1,0 +1,9 @@
+' Ask the user to enter a temperature
+TextWindow.Write("Please enter your temperature in Fahrenheit: ")
+fahrenheit = TextWindow.Read()
+
+' Calculation (using F = C × 9/5 + 32)
+celsius = (fahrenheit-32)*5/9
+
+'Output the temperature
+TextWindow.WriteLine("\nThe temperature in Celsius is: " + celsius)

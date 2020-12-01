@@ -1,0 +1,18 @@
+TextWindow.Write("Please enter your name: ")
+
+person_name = TextWindow.Read()
+
+' If (Clock.Hour < 12) Then
+'  TextWindow.WriteLine("Good morning " + person_name)
+'  TextWindow.WriteLine("How was your night?")
+'  TextWindow.WriteLine("Enjoy your day")
+'EndIf
+'If (Clock.Hour >= 12) Then
+'  TextWindow.WriteLine("Good afternoon " +person_name)
+'EndIf
+
+If (Clock.Hour < 8) Then
+  TextWindow.WriteLine("Good morning " + person_name)
+Else
+  TextWindow.WriteLine("Good afternoon " + person_name)
+EndIf

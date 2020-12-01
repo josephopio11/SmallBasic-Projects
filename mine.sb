@@ -1,0 +1,17 @@
+total = 0
+loop:
+TextWindow.Write("Enter a number of your choice: ")
+num = TextWindow.ReadNumber()
+
+total = total + num
+
+TextWindow.WriteLine("Your total is: " + total)
+
+If (total < 1000) Then
+  Goto loop
+Else
+  Goto end
+EndIf
+
+end:
+TextWindow.Write(total)

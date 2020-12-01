@@ -1,0 +1,6 @@
+num = 100
+While (num > 1)
+  TextWindow.WriteLine(num)
+  num = num / 2
+EndWhile
+  
